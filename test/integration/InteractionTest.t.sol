@@ -4,7 +4,7 @@ pragma solidity ^0.8.19;
 
 import {Test, console} from "forge-std/Test.sol";
 import {FundMe} from "../../src/FundMe.sol";
-import {Interactions} from "../../script/interactions.s.sol";
+import {Interactions} from "../../script/Interactions.s.sol";
 import {DeployFundMe} from "../../script/DeployFundMe.s.sol";
 
 contract InteractionTest is Test {
